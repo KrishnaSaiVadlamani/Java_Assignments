@@ -1,0 +1,14 @@
+
+Q
+java:S1610"6Convert the abstract class "Rodent" into an interface.(ıõ£ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(öİÌÏûÿÿÿÿ
+M	java:S106 "9Replace this use of System.out or System.err by a logger.(íû§K
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(«ó¬‚ûÿÿÿÿ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(“âåº
+S	java:S106."9Replace this use of System.out or System.err by a logger.(°³ûÊúÿÿÿÿ
+M	java:S1062"9Replace this use of System.out or System.err by a logger.(€îõH
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(Û³°üùÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(êĞ¾²üÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(¹ÿˆùÿÿÿÿ
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(ì¼Šà
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—ÑƒÜ
