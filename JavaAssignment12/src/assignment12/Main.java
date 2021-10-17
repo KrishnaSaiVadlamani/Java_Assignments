@@ -33,6 +33,7 @@ public class Main {
         studentArrayList.stream().collect(Collectors.groupingBy(Student::getGender,Collectors.averagingInt(Student::getAge))).forEach((gender, age) -> System.out.println(gender+" Average age: "+age));
         System.out.println("Student with highest percentage: "+studentArrayList.stream().max(Comparator.comparingDouble(Student::getPerTillDate)).get());
         studentArrayList.stream().collect(Collectors.groupingBy(Student::getEngDepartment)).forEach((s, students) -> System.out.println(s+" Dept Count: "+students.size()));
+        System.out.println("Count no of Students in each Group : ");
         studentArrayList.stream().collect(Collectors.groupingBy(Student::getEngDepartment)).forEach((dept, total) -> System.out.println("No. of students in "+dept+ ": "+total.size()));
         studentArrayList.stream().collect(Collectors.groupingBy(Student::getEngDepartment,Collectors.averagingDouble(Student::getPerTillDate))).forEach((dept, average) -> System.out.println("Average percentage of "+dept+ ": "+average));
         System.out.println("Youngest Male Student in Electronics: "+studentArrayList.stream().filter(student -> student.gender.equals("Male")).filter(student -> student.getEngDepartment().equals("Electronic")).collect(Collectors.minBy(Comparator.comparingInt(Student::getAge))).get());

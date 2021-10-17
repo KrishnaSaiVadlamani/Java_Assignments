@@ -1,22 +1,27 @@
 
-T	java:S106"9Replace this use of System.out or System.err by a logger.(¯´å8—èêñÈ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(šÓ¿óıÿÿÿÿ8›èêñÈ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(úÂ’Ñ8èêñÈ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Âòùåúÿÿÿÿ8¡èêñÈ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(î†—ê8¢èêñÈ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(àÕ»Û8¤èêñÈ/
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(®Ô£ÿÿÿÿÿ8¥èêñÈ/
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ˆÏà€şÿÿÿÿ8§èêñÈ/
-U	java:S106""9Replace this use of System.out or System.err by a logger.(™¸½¸8¨èêñÈ/
-U	java:S106#"9Replace this use of System.out or System.err by a logger.(î÷º8ªèêñÈ/
-Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Îì–¥øÿÿÿÿ8«èêñÈ/
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(êÛ¹Åÿÿÿÿÿ8¬èêñÈ/
-U	java:S106&"9Replace this use of System.out or System.err by a logger.(½˜Ê—8­èêñÈ/
-U	java:S106'"9Replace this use of System.out or System.err by a logger.(îã‚†8¯èêñÈ/
-m
-java:S1192	"QDefine a constant instead of duplicating this literal "Computer Science" 7 times.(–‡¢h8²èêñÈ/
-c
-java:S1192	"GDefine a constant instead of duplicating this literal "Female" 6 times.(–‡¢h8³èêñÈ/
-h
-java:S1192"KDefine a constant instead of duplicating this literal "Electronic" 5 times.(˜­Ñ¨8³èêñÈ/
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¯´å
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šÓ¿óıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(úÂ’Ñ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Âòùåúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(î†—ê
+N	java:S106"9Replace this use of System.out or System.err by a logger.(àÕ»Û
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(®Ô£ÿÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ˆÏà€şÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(™¸½¸
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(î÷º
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(®ß’Â
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(Îì–¥øÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(êÛ¹Åÿÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(½˜Ê—
+U	java:S106("9Replace this use of System.out or System.err by a logger.(îã‚†8Ş¦óÈ/
+f
+java:S1192	"QDefine a constant instead of duplicating this literal "Computer Science" 7 times.(–‡¢h
+\
+java:S1192	"GDefine a constant instead of duplicating this literal "Female" 6 times.(–‡¢h
+a
+java:S1192"KDefine a constant instead of duplicating this literal "Electronic" 5 times.(˜­Ñ¨
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†ƒÑá
+f
+java:S3655'"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(½˜Ê—
+f
+java:S3655""PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(™¸½¸
