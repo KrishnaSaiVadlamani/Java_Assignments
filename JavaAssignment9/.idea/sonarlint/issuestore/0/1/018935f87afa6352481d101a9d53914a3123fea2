@@ -1,0 +1,9 @@
+
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(×¬Íœúÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ıè¼¹øÿÿÿÿ8ÛÌ€ïÈ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(í¤î®8Ì¸‹ïÈ/
+L
+java:S5411"*Use the primitive boolean expression here.(«–µşÿÿÿÿ8¯æ‡ïÈ/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÓ·Ğ
