@@ -1,17 +1,1 @@
-hi : 1
-a : 1
-this : 1
-i : 1
-true? : 1
-is : 2
-krishna : 1
-that : 2
-are : 2
-trying : 1
-find : 1
-where : 1
-from : 1
-to : 1
-job : 1
-you : 2
-heard : 1
+{ =19, a=7, b=1, d=2, e=6, f=2, g=1, h=6, i=7, j=1, k=1, m=1, n=3, o=5, r=8, s=4, t=8, u=3, w=1, y=3, ?=1}

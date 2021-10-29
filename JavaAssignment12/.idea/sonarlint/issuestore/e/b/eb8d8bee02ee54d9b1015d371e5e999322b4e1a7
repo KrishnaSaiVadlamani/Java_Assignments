@@ -1,6 +1,7 @@
 
-]
-java:S1659"@Declare "age" and all following declarations on a separate line.(ºÄ¸Õ8ŸˆãñÈ/
-`
-java:S1659"CDeclare "gender" and all following declarations on a separate line.(Â¯×í8£ˆãñÈ/
+V
+java:S1659"@Declare "age" and all following declarations on a separate line.(ºÄ¸Õ
+Y
+java:S1659"CDeclare "gender" and all following declarations on a separate line.(Â¯×í
+Q	java:S125"<This block of commented-out lines of code should be removed.(Á»›ê
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†ƒÑá

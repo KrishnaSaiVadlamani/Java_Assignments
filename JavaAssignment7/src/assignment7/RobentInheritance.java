@@ -8,9 +8,9 @@ public class RobentInheritance {
         rodent[1] = new Gerbil();
         rodent[2] = new Hamster();
 
-        for (Rodent r : rodent) {
-            r.name();
-            r.activity();
+        for (Rodent rodent1 : rodent) {
+            rodent1.name();
+            rodent1.activity();
         }
 
     }

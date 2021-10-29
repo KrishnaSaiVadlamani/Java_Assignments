@@ -1,7 +1,7 @@
 package assignment6;
 
 public class Constructor {
-    Constructor(String str){
-        System.out.println(str);
+    Constructor(String string){
+        System.out.println(string);
     }
 }

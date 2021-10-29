@@ -5,9 +5,9 @@ import Krishna.Assignment5.data.Data;
 
 public class Main {
     public static void main(String[] args) {
-        Data d = new Data();
-        d.printinstance();
-        d.localMembersprint();
+        Data data = new Data();
+        data.printinstance();
+        data.localMembersprint();
 
         Singleton singleton=new Singleton("Hi Krishna");
         singleton.print();

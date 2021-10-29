@@ -1,18 +1,18 @@
 package Krishna.Assignment5.singleton;
 
 public class Singleton {
-    String str;
-    private Singleton(String str1){
-        this.str=str1;
+    String string;
+    public Singleton(String string1){
+        this.string=string1;
     }
 
-    public static Singleton Initialize(String s){
-        Singleton singleton=new Singleton(s);
+    public static Singleton Initialize(String string){
+        Singleton singleton=new Singleton(string);
         return singleton;
     }
 
     public void print(){
-     System.out.println(str);
+     System.out.println(string);
     }
 
 }

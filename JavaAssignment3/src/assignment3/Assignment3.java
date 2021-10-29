@@ -7,24 +7,24 @@ import java.util.Scanner;
 public class Assignment3 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the ip address : ");
-        String ip =sc.nextLine();
-        runSystemCommand("ping " + ip);
+        String ipAddress =scanner.nextLine();
+        pingMethod("ping " + ipAddress);
 
 
     }
-    public static void runSystemCommand(String command) {
+    public static void pingMethod(String command) {
 
         try {
-            Process p = Runtime.getRuntime().exec(command);
+            Process process = Runtime.getRuntime().exec(command);
             BufferedReader inputStream = new BufferedReader(
-                    new InputStreamReader(p.getInputStream()));
+                    new InputStreamReader(process.getInputStream()));
 
-            String s = "";
-            while ((s = inputStream.readLine()) != null) {
-                System.out.println(s);
-                break;
+            String string = "";
+            while ((string = inputStream.readLine()) != null) {
+                System.out.println(string);
+                //break;
 
             }
 

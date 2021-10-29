@@ -5,17 +5,20 @@ import java.util.*;
 
 public class Assignment11 {
     public static void main(String args[]) throws Exception {
-        Map<Character,Integer> occurences=new HashMap<>();
+
         FileReader fileReader;
         fileReader = new FileReader("src/assignment11/input");
-        BufferedReader bufferedReader=new BufferedReader(fileReader);
-        String str=bufferedReader.readLine();
-        while(str!=null){
-            for(char c : str.toCharArray()){
-                occurences.put(c,occurences.getOrDefault(c,0)+1);
+        BufferedReader bufferedReader = new BufferedReader(fileReader); //It is used to read text in character input stream.
+        String string = bufferedReader.readLine();
+        System.out.println(string);
+        countOccurences(string);
+    }
+        public static void countOccurences(String string) throws Exception{
+            Map<Character, Integer> occurences = new HashMap<>();
+                for(char char1 : string.toCharArray()){
+                occurences.put(char1,occurences.getOrDefault(char1,0)+1);
             }
-            str=bufferedReader.readLine();
-        }
+
         System.out.println(occurences);
         FileWriter fileWriter=new FileWriter("src/assignment11/output");
         BufferedWriter bufferedWriter=new BufferedWriter(fileWriter);

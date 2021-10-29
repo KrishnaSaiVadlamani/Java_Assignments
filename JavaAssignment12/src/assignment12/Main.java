@@ -39,5 +39,6 @@ public class Main {
         System.out.println("Youngest Male Student in Electronics: "+studentArrayList.stream().filter(student -> student.gender.equals("Male")).filter(student -> student.getEngDepartment().equals("Electronic")).collect(Collectors.minBy(Comparator.comparingInt(Student::getAge))).get());
         studentArrayList.stream().filter(student -> student.engDepartment.equals("Computer Science")).collect(Collectors.groupingBy(Student::getGender)).forEach((gender, total) -> System.out.println("No of "+gender+" in Computer Science: "+total.size()));
 
+     //   System.out.println(studentArrayList.get(5).toString());
     }
 }

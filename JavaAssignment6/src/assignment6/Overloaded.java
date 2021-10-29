@@ -5,7 +5,7 @@ public class Overloaded {
         this(2);
 
     }
-    Overloaded(int x){
-        System.out.println(x+" parameterized constructor called");
+    Overloaded(int variable){
+        System.out.println(variable+" parameterized constructor called");
     }
 }

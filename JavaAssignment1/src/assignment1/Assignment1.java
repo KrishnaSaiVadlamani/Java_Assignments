@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class Assignment1 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner scanner=new Scanner(System.in);
         while(true){
             System.out.println("Enter Regular Expression: ");
-            String regularExp = sc.nextLine();
+            String regularExp = scanner.nextLine();
             Assignment1 assignment = new Assignment1();
             assignment.fileSearch("/home/krisv", regularExp);
         }
@@ -21,14 +21,14 @@ public class Assignment1 {
         File[] files=directory.listFiles();
 
         if(files!= null){
-            for(File f:files){
+            for(File file:files){
 
-                if(f.isDirectory()){
-                    fileSearch(f.getAbsolutePath(),regularExpression);
+                if(file.isDirectory()){
+                    fileSearch(file.getAbsolutePath(),regularExpression);
                 }
 
-                else if(f.getName().matches(regularExpression)){
-                    System.out.println(f.getAbsolutePath());
+                else if(file.getName().matches(regularExpression)){
+                    System.out.println(file.getAbsolutePath());
                 }
             }
         }

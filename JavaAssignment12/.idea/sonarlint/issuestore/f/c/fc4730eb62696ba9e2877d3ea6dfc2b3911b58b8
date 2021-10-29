@@ -13,7 +13,8 @@ N	java:S106$"9Replace this use of System.out or System.err by a logger.(®ß’Â
 S	java:S106%"9Replace this use of System.out or System.err by a logger.(Îì–¥øÿÿÿÿ
 S	java:S106&"9Replace this use of System.out or System.err by a logger.(êÛ¹Åÿÿÿÿÿ
 N	java:S106'"9Replace this use of System.out or System.err by a logger.(½˜Ê—
-U	java:S106("9Replace this use of System.out or System.err by a logger.(îã‚†8Þž¦óÈ/
+N	java:S106("9Replace this use of System.out or System.err by a logger.(îã‚†
+V	java:S125*"<This block of commented-out lines of code should be removed.(ùÃûŸþÿÿÿÿ
 f
 java:S1192	"QDefine a constant instead of duplicating this literal "Computer Science" 7 times.(–‡¢h
 \
@@ -22,6 +23,6 @@ a
 java:S1192"KDefine a constant instead of duplicating this literal "Electronic" 5 times.(˜­Ñ¨
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†ƒÑá
 f
-java:S3655'"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(½˜Ê—
-f
 java:S3655""PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(™¸½¸
+f
+java:S3655'"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(½˜Ê—

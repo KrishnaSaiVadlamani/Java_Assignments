@@ -21,10 +21,11 @@ public class Student {
     String getEngDepartment(){ return this.engDepartment;}
     int getYearOfEnrollment(){ return this.yearOfEnrollment; }
     double getPerTillDate(){ return this.perTillDate;}
-    @Override
+   /* @Override
     public String toString(){
         return "Id:"+getId()+" Name:"+getName()+" Age:"+getAge()+" Gender:"+getGender()+" engDepartment:"+getEngDepartment()+
                 " year of enrollment t:"+getYearOfEnrollment()+" perTillDate:"+getPerTillDate();
 
-    }
+    }*/
+    
 }
